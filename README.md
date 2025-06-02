@@ -1,7 +1,7 @@
 
 # PWM Fan Control for Raspberry Pi (pigpio-based)
 
-注意某些树莓派，如4B，调用pigpio，某些频率可能没有输出，调高或调低频率
+注意某些树莓派，如4B，调用pigpio，某些频率（11~50kHz）可能没有输出`https://github.com/joan2937/pigpio/issues/517`，使用PWM1（GPIO13）或调高调低频率
 
 树莓派风扇 PWM 控制服务（基于 pigpio），实现以下功能：
 
